@@ -1,138 +1,241 @@
+/* Set box-sizing to border-box so that the padding and border of elements are included in the element's total width and height */
 * {
     box-sizing: border-box;
+    /* Set padding and margin to 0 for all elements to ensure consistent spacing and layout */
     padding: 0;
     margin: 0;
 }
 
+/* Set the background color of the body element */
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* Use a light gray color */
 }
 
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+/* This styles the header element. */
+.header {
+    padding: 20px; /* Adds 20 pixels of padding to the header. */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Sets the font family for the header text. */
+    background-color: #2a607c; /* Sets the background color of the header. */
+    color: #ffffff; /* Sets the text color of the header to white. */
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
+/* This styles the h1 element inside the header. */
+.header h1 {
+    display: inline-block; /* Makes the h1 element display as an inline block. */
+    font-size: 48px; /* Sets the font size of the h1 element to 48 pixels. */
 }
 
-header h1 .seo {
-    color: #d9dcd6;
+/* This styles the .seo class inside the h1 element inside the header. */
+.header h1 .seo {
+    color: #d9dcd6; /* Sets the color of the .seo class to a light gray. */
 }
 
-header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+/* This styles the div element inside the header. */
+.header div {
+    padding-top: 15px; /* Adds 15 pixels of padding to the top of the div element. */
+    margin-right: 20px; /* Adds 20 pixels of margin to the right side of the div element. */
+    float: right; /* Floats the div element to the right side of the header. */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Sets the font family for the text inside the div element. */
+    font-size: 20px; /* Sets the font size of the text inside the div element to 20 pixels. */
 }
 
-header div ul {
-    list-style-type: none;
+/* This styles the ul element inside the div element inside the header. */
+.header div ul {
+    list-style-type: none; /* Removes the bullet points from the list items inside the ul element. */
 }
 
-header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+/* This styles the li element inside the ul element inside the div element inside the header. */
+.header div ul li {
+    display: inline-block; /* Makes the li element display as an inline block. */
+    margin-left: 25px; /* Adds 25 pixels of margin to the left side of the li element. */
 }
 
+
+/* This styles all anchor (link) elements. */
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff; /* Sets the text color of the link to white. */
+    text-decoration: none; /* Removes the underline decoration from the link. */
 }
 
+/* This styles all paragraph elements. */
 p {
-    font-size: 16px;
+    font-size: 16px; /* Sets the font size of the paragraph text to 16 pixels. */
 }
 
+
+/* This styles the .hero class. */
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px; /* Sets the height of the .hero element to 800 pixels. */
+    width: 100%; /* Sets the width of the .hero element to 100% of its parent element. */
+    margin-bottom: 25px; /* Adds 25 pixels of margin to the bottom of the .hero element. */
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* Sets the background image of the .hero element to the specified URL. */
+    background-size: cover; /* Scales the background image to cover the entire .hero element. */
+    background-position: center; /* Centers the background image inside the .hero element. */
 }
 
+/* This styles the .float-left class. */
 .float-left {
-    float: left;
-    margin-right: 25px;
+    float: left; /* Floats the element to the left side of its container. */
+    margin-right: 25px; /* Adds 25 pixels of margin to the right side of the element. */
 }
 
+/* This styles the .float-right class. */
 .float-right {
-    float: right;
-    margin-left: 25px;
+    float: right; /* Floats the element to the right side of its container. */
+    margin-left: 25px; /* Adds 25 pixels of margin to the left side of the element. */
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+
+/* This styles the content class. */
+.content {
+    width: 75%; /* Sets the width of the content element to 75% of its parent element. */
+    display: inline-block; /* Makes the content element display as an inline-level block container. */
+    margin-left: 20px; /* Adds 20 pixels of margin to the left side of the content element. */
 }
 
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+
+/* This styles the .benefits class. */
+.benefits {
+    margin-right: 20px; /* Adds 20 pixels of margin to the right side of the .benefits element. */
+    padding: 20px; /* Adds 20 pixels of padding to the .benefits element. */
+    clear: both; /* Clears any floated elements that appear above the .benefits element. */
+    float: right; /* Floats the .benefits element to the right side of its container. */
+    width: 20%; /* Sets the width of the .benefits element to 20% of its parent element. */
+    height: 100%; /* Sets the height of the .benefits element to 100% of its parent element. */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Sets the font family of the text inside the .benefits element. */
+    background-color: #2589bd; /* Sets the background color of the .benefits element to the specified value. */
 }
 
-aside > * {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* This styles the .benefit-lead class. */
+.benefit-lead {
+    margin-bottom: 32px; /* Adds 32 pixels of margin to the bottom of the .benefit-lead element. */
+    color: #ffffff; /* Sets the text color of the .benefit-lead element to white. */
 }
 
-aside > * h3 {
-    margin-bottom: 10px;
-    text-align: center;
+/* This styles the .benefit-brand class. */
+.benefit-brand {
+    margin-bottom: 32px; /* Adds 32 pixels of margin to the bottom of the .benefit-brand element. */
+    color: #ffffff; /* Sets the text color of the .benefit-brand element to white. */
 }
 
-aside > * img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+
+/* This styles the .benefit-cost class. */
+.benefit-cost {
+    margin-bottom: 32px; /* Adds 32 pixels of margin to the bottom of the .benefit-cost element. */
+    color: #ffffff; /* Sets the text color of the .benefit-cost element to white. */
 }
 
-.search-engine-optimization,
-.online-reputation-management,
+/* This styles the h3 element inside the .benefit-lead class. */
+.benefit-lead h3 {
+    margin-bottom: 10px; /* Adds 10 pixels of margin to the bottom of the h3 element inside the .benefit-lead element. */
+    text-align: center; /* Centers the text inside the h3 element inside the .benefit-lead element. */
+}
+
+/* This styles the h3 element inside the .benefit-brand class. */
+.benefit-brand h3 {
+    margin-bottom: 10px; /* Adds 10 pixels of margin to the bottom of the h3 element inside the .benefit-brand element. */
+    text-align: center; /* Centers the text inside the h3 element inside the .benefit-brand element. */
+}
+
+/* This styles the h3 element inside the .benefit-cost class. */
+.benefit-cost h3 {
+    margin-bottom: 10px; /* Adds 10 pixels of margin to the bottom of the h3 element inside the .benefit-cost element. */
+    text-align: center; /* Centers the text inside the h3 element inside the .benefit-cost element. */
+}
+
+
+/* This styles the img element inside the .benefit-lead class. */
+.benefit-lead img {
+    display: block; /* Sets the display property of the img element inside the .benefit-lead element to block, which makes it a block-level element. */
+    margin: 10px auto; /* Adds 10 pixels of margin on the top and bottom of the img element inside the .benefit-lead element and centers it horizontally. */
+    max-width: 150px; /* Sets the maximum width of the img element inside the .benefit-lead element to 150 pixels. */
+}
+
+/* This styles the img element inside the .benefit-brand class. */
+.benefit-brand img {
+    display: block; /* Sets the display property of the img element inside the .benefit-brand element to block, which makes it a block-level element. */
+    margin: 10px auto; /* Adds 10 pixels of margin on the top and bottom of the img element inside the .benefit-brand element and centers it horizontally. */
+    max-width: 150px; /* Sets the maximum width of the img element inside the .benefit-brand element to 150 pixels. */
+}
+
+/* This styles the img element inside the .benefit-cost class. */
+.benefit-cost img {
+    display: block; /* Sets the display property of the img element inside the .benefit-cost element to block, which makes it a block-level element. */
+    margin: 10px auto; /* Adds 10 pixels of margin on the top and bottom of the img element inside the .benefit-cost element and centers it horizontally. */
+    max-width: 150px; /* Sets the maximum width of the img element inside the .benefit-cost element to 150 pixels. */
+}
+
+
+.search-engine-optimization {
+    margin-bottom: 20px; /* adds 20px margin below the element */
+    padding: 50px; /* adds 50px padding inside the element */
+    height: 300px; /* sets the height of the element to 300px */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* sets the font family of the element */
+    background-color: #0072bb; /* sets the background color of the element to a shade of blue */
+    color: #ffffff; /* sets the text color of the element to white */
+}
+
+.online-reputation-management {
+    margin-bottom: 20px; /* adds 20px margin below the element */
+    padding: 50px; /* adds 50px padding inside the element */
+    height: 300px; /* sets the height of the element to 300px */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* sets the font family of the element */
+    background-color: #0072bb; /* sets the background color of the element to a shade of blue */
+    color: #ffffff; /* sets the text color of the element to white */
+}
+
 .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    margin-bottom: 20px; /* adds 20px margin below the element */
+    padding: 50px; /* adds 50px padding inside the element */
+    height: 300px; /* sets the height of the element to 300px */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* sets the font family of the element */
+    background-color: #0072bb; /* sets the background color of the element to a shade of blue */
+    color: #ffffff; /* sets the text color of the element to white */
 }
 
-.search-engine-optimization img,
-.online-reputation-management img,
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2,
-.online-reputation-management h2,
+/* These styles set the maximum height of images within the sections for SEO, online reputation management, and social media marketing to 200 pixels. */
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+/* These styles set the font size and margin bottom for the H2 headings within the sections for SEO, online reputation management, and social media marketing. */ 
+
+
+/* Styling for the footer section */
+.footer {
+    padding: 30px; /* Adding padding around the footer */
+    clear: both; /* Clearing any floats present above the footer */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Setting font family for the footer text */
+    text-align: center; /* Center aligning the text in the footer */
 }
 
-footer h2 {
-    font-size: 20px;
+/* Styling for the footer heading */
+.footer h2 {
+    font-size: 20px; /* Setting font size for the footer heading */
 }
+
